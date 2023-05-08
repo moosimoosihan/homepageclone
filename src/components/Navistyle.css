@@ -1,0 +1,50 @@
+nav ul.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+}
+nav ul.menu li {
+    margin-right: 4rem;
+    position: relative;
+}
+nav ul.menu > li:first-child {
+    margin-right: auto;
+    margin-left: 0;
+}
+nav ul.menu > li:not(:first-child) {
+    margin-right: 4rem;
+  }
+.submenu {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    top: 100%;
+    background-color: black;
+    width: 180px;
+}
+.submenu li {
+    margin: auto;
+}
+.menu li:hover .submenu {
+    display: block;
+}
+nav ul.menu li a {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+nav ul.submenu li a {
+    font-size: 9px;
+    color: white;
+    text-decoration: none;
+}
+nav {
+  position: fixed;
+  top : 0;
+  width: 100%;
+  z-index: 999;
+}

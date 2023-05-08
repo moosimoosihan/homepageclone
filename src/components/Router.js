@@ -7,7 +7,8 @@ import BuisinessStore from "../routes/BuisinessStore";
 import Community from "../routes/Community";
 import Press from "../routes/Press";
 import ContactUs from "../routes/ContactUs";
-import MyAcount from "../routes/MyAcount";
+import MyAccount from "../routes/MyAccount";
+import Shopingbag from "../routes/Shopingbag";
 import Navigation from "../components/Navigation"
 
 const AppRouter = () => {
@@ -24,7 +25,8 @@ const AppRouter = () => {
                         <Route path="/Community" element={<Community />} />
                         <Route path="/Press" element={<Press />} />
                         <Route path="/ContactUs" element={<ContactUs />} />
-                        <Route path="/MyAcount" element={<MyAcount />} />
+                        <Route path="/MyAccount" element={<MyAccount />} />
+                        <Route path="/Shopingbag" element={<Shopingbag />} />
                     </>
                 </Routes>
             </div>
