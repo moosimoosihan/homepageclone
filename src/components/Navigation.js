@@ -60,11 +60,11 @@ const Navigation = () => {
                 <li>
                     <Link to="/MyAccount">🔒 MY ACCOUNT ∨</Link>
                     <ul className="submenu">
-                        <li><Link to="MyAccount/Login">LOGIN</Link></li>
-                        <li><Link to="MyAccount/Joinus">JOIN US</Link></li>
-                        <li><Link to="MyAccount/Order">ORDER</Link></li>
-                        <li><Link to="MyAccount/Mypage">MY PAGE</Link></li>
-                        <li><Link to="MyAccount/Delivery">DELIVERY</Link></li>
+                        <li><Link to="/MyAccount/Login">LOGIN</Link></li>
+                        <li><Link to="/MyAccount/Joinus">JOIN US</Link></li>
+                        <li><Link to="/MyAccount/Order">ORDER</Link></li>
+                        <li><Link to="/MyAccount/Mypage">MY PAGE</Link></li>
+                        <li><Link to="/MyAccount/Delivery">DELIVERY</Link></li>
                     </ul>
                 </li>
                 <li><Link to="/Shopingbag">🛒</Link></li>

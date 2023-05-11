@@ -1,5 +1,10 @@
 import React from 'react';
 import Slide from '../components/Slide';
+import NewProduct from '../UI/Home/newProduct';
+import BestProduct from '../UI/Home/bestProduct';
+import ImageSlide from '../UI/Home/imageSlide';
+import LivingProduct from '../UI/Home/livingProuction';
+import InstargramFeed from '../UI/Home/instarFeed';
 
 const Home = () => {
     return (
@@ -8,19 +13,19 @@ const Home = () => {
                 <Slide />
             </div>
             <div className="new-products">
-                {/* 신상품 내용 */}
+                <NewProduct />
             </div>
             <div className="best-items">
-                {/* 베스트 아이템 내용 */}
+                <BestProduct />
             </div>
             <div className="image">
-                {/* 이미지 내용 */}
+                <ImageSlide />
             </div>
             <div className="other-products">
-                {/* 다른 상품들 내용 */}
+                <LivingProduct />
             </div>
             <div className="instagram-feed">
-                {/* 인스타그램 피드 내용 */}
+                <InstargramFeed />
             </div>
         </>
   );
